@@ -15,7 +15,9 @@
   (/ x y))
 
 ;; 条件分岐
-(defn if-sample [x y]
+(defn if-sample []
+  (def x 3)
+  (def y 4)
   (if (> x y)
     (println (str x " is greater than " y))
     (println (str x " is less than " y))))
@@ -26,6 +28,6 @@
   (println (str "sub: " (sub 5 3)))
   (println (str "mul: " (mul 8 7)))
   (println (str "div: " (div 4 2)))
-  (if-sample 3 5))
+  (if-sample))
 
 (main)
