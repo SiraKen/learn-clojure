@@ -3,4 +3,8 @@
  {;; https://github.com/dakrone/clj-http
   clj-http/clj-http {:mvn/version "3.12.3"}
   ;; https://github.com/dakrone/cheshire
-  cheshire/cheshire {:mvn/version "5.11.0"}}}
+  cheshire/cheshire {:mvn/version "5.11.0"}
+  ;; https://github.com/clojure/java.jdbc
+  org.clojure/java.jdbc {:mvn/version "0.7.12"}
+  ;; MySQL
+  mysql/mysql-connector-java {:mvn/version "8.0.26"}}}

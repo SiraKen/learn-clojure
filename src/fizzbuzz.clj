@@ -1,3 +1,5 @@
+(ns fizzbuzz)
+
 (defn fizzbuzz [n]
   (cond
     (= (mod n 15) 0) "FizzBuzz"

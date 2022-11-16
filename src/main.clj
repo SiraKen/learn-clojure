@@ -1,3 +1,5 @@
+(ns main)
+
 ;; 足し算
 (defn add [x y]
   (+ x y))
