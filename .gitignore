@@ -16,3 +16,5 @@ pom.xml.asc
 # Added
 .clj-kondo/
 .lsp/
+.calva/
+*.db
